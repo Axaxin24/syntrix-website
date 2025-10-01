@@ -7,13 +7,9 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: 'standalone',
   trailingSlash: false,
   images: {
     unoptimized: true,
-  },
-  experimental: {
-    appDir: true,
   },
 };
 
