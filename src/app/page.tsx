@@ -36,7 +36,7 @@ export default function Home() {
       </section>
 
       {/* About Syntrix Section */}
-      <section className="py-20 bg-white">
+      <section className="section-padding bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">About Syntrix</h2>
@@ -72,7 +72,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
@@ -81,7 +81,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-8 shadow-lg card-hover">
+            <div className="card-enhanced p-8 card-hover">
               <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <Code className="h-8 w-8 text-blue-600" />
               </div>
@@ -95,7 +95,7 @@ export default function Home() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg card-hover">
+            <div className="card-enhanced p-8 card-hover">
               <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <Smartphone className="h-8 w-8 text-blue-600" />
               </div>
@@ -109,7 +109,7 @@ export default function Home() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg card-hover">
+            <div className="card-enhanced p-8 card-hover">
               <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <Database className="h-8 w-8 text-blue-600" />
               </div>

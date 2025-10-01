@@ -53,7 +53,7 @@ export default function Navigation() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200"
+                className="nav-link"
               >
                 {item.name}
               </Link>
@@ -86,7 +86,7 @@ export default function Navigation() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-colors duration-200"
+                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-colors duration-200 font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
