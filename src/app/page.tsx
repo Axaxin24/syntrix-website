@@ -45,27 +45,27 @@ export default function Home() {
               innovative software solutions that help businesses thrive in the digital age.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8 text-blue-600" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="bg-gradient-to-r from-blue-500 to-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Users className="h-10 w-10 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Expert Team</h3>
-              <p className="text-gray-600">Experienced developers and AI specialists working together to deliver exceptional results.</p>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Expert Team</h3>
+              <p className="text-gray-600 leading-relaxed">Our diverse team brings together top talent in AI, software engineering, and design to deliver exceptional results.</p>
             </div>
-            <div className="text-center p-6">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="h-8 w-8 text-blue-600" />
+            <div className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="bg-gradient-to-r from-blue-500 to-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award className="h-10 w-10 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Quality Focus</h3>
-              <p className="text-gray-600">We prioritize quality, performance, and user experience in every project we deliver.</p>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Proven Track Record</h3>
+              <p className="text-gray-600 leading-relaxed">Delivering successful projects for clients across various industries worldwide with consistent quality.</p>
             </div>
-            <div className="text-center p-6">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Zap className="h-8 w-8 text-blue-600" />
+            <div className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="bg-gradient-to-r from-blue-500 to-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Zap className="h-10 w-10 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">AI-Powered</h3>
-              <p className="text-gray-600">Leveraging cutting-edge AI technology to accelerate development and enhance functionality.</p>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Innovation at Core</h3>
+              <p className="text-gray-600 leading-relaxed">Constantly exploring new technologies and AI advancements to provide cutting-edge solutions.</p>
             </div>
           </div>
         </div>
@@ -80,47 +80,44 @@ export default function Home() {
               Comprehensive software development solutions tailored to your business needs.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="card-enhanced p-8 card-hover">
-              <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Code className="h-8 w-8 text-blue-600" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div className="bg-white rounded-3xl p-10 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-blue-100">
+              <div className="bg-gradient-to-br from-blue-500 to-blue-700 w-20 h-20 rounded-2xl flex items-center justify-center mb-8">
+                <Code className="h-10 w-10 text-white" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4">Website Development</h3>
-              <p className="text-gray-600 mb-6">
-                Modern, responsive websites built with the latest technologies. 
-                Fast, secure, and optimized for search engines.
+              <h3 className="text-3xl font-bold mb-6 text-gray-900">Website Development</h3>
+              <p className="text-gray-600 mb-8 leading-relaxed text-lg">
+                Crafting responsive, high-performance websites with modern frameworks and AI enhancements for optimal user experience.
               </p>
-              <Link href="/contact" className="btn-primary inline-flex items-center space-x-2">
+              <Link href="/contact" className="btn-primary text-lg px-8 py-4 inline-flex items-center space-x-3 w-full justify-center">
                 <span>Book Demo</span>
-                <ArrowRight className="h-4 w-4" />
+                <ArrowRight className="h-5 w-5" />
               </Link>
             </div>
-            <div className="card-enhanced p-8 card-hover">
-              <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Smartphone className="h-8 w-8 text-blue-600" />
+            <div className="bg-white rounded-3xl p-10 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-blue-100">
+              <div className="bg-gradient-to-br from-blue-500 to-blue-700 w-20 h-20 rounded-2xl flex items-center justify-center mb-8">
+                <Smartphone className="h-10 w-10 text-white" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4">Mobile App Development</h3>
-              <p className="text-gray-600 mb-6">
-                Native and cross-platform mobile applications that provide 
-                seamless user experiences across all devices.
+              <h3 className="text-3xl font-bold mb-6 text-gray-900">Mobile App Development</h3>
+              <p className="text-gray-600 mb-8 leading-relaxed text-lg">
+                Building intuitive and powerful mobile applications for iOS and Android platforms with cutting-edge technology.
               </p>
-              <Link href="/contact" className="btn-primary inline-flex items-center space-x-2">
+              <Link href="/contact" className="btn-primary text-lg px-8 py-4 inline-flex items-center space-x-3 w-full justify-center">
                 <span>Book Demo</span>
-                <ArrowRight className="h-4 w-4" />
+                <ArrowRight className="h-5 w-5" />
               </Link>
             </div>
-            <div className="card-enhanced p-8 card-hover">
-              <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Database className="h-8 w-8 text-blue-600" />
+            <div className="bg-white rounded-3xl p-10 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-blue-100">
+              <div className="bg-gradient-to-br from-blue-500 to-blue-700 w-20 h-20 rounded-2xl flex items-center justify-center mb-8">
+                <Database className="h-10 w-10 text-white" />
               </div>
-              <h3 className="text-2xl font-semibold mb-4">Management Systems</h3>
-              <p className="text-gray-600 mb-6">
-                Custom business management systems and dashboards that 
-                streamline operations and boost productivity.
+              <h3 className="text-3xl font-bold mb-6 text-gray-900">Management Systems</h3>
+              <p className="text-gray-600 mb-8 leading-relaxed text-lg">
+                Developing custom AI-driven management systems to streamline your operations and boost productivity.
               </p>
-              <Link href="/contact" className="btn-primary inline-flex items-center space-x-2">
+              <Link href="/contact" className="btn-primary text-lg px-8 py-4 inline-flex items-center space-x-3 w-full justify-center">
                 <span>Book Demo</span>
-                <ArrowRight className="h-4 w-4" />
+                <ArrowRight className="h-5 w-5" />
               </Link>
             </div>
           </div>
@@ -137,33 +134,33 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-green-600" />
+            <div className="text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="bg-gradient-to-r from-green-500 to-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Fast Delivery</h3>
-              <p className="text-gray-600">Quick turnaround times without compromising on quality.</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">AI-Powered Solutions</h3>
+              <p className="text-gray-600 leading-relaxed">Integrating advanced AI to make your software smarter and more efficient.</p>
             </div>
-            <div className="text-center">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-green-600" />
+            <div className="text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="bg-gradient-to-r from-green-500 to-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">24/7 Support</h3>
-              <p className="text-gray-600">Round-the-clock support to keep your projects running smoothly.</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Client-Centric Approach</h3>
+              <p className="text-gray-600 leading-relaxed">Your vision is our priority. We work closely with you to bring your ideas to life.</p>
             </div>
-            <div className="text-center">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-green-600" />
+            <div className="text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="bg-gradient-to-r from-green-500 to-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Scalable Solutions</h3>
-              <p className="text-gray-600">Built to grow with your business and handle increasing demands.</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Global Reach</h3>
+              <p className="text-gray-600 leading-relaxed">Serving businesses worldwide with reliable and scalable software solutions.</p>
             </div>
-            <div className="text-center">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-green-600" />
+            <div className="text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="bg-gradient-to-r from-green-500 to-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">AI Integration</h3>
-              <p className="text-gray-600">Leverage AI to automate processes and enhance user experiences.</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Proven Excellence</h3>
+              <p className="text-gray-600 leading-relaxed">Delivering exceptional results with a track record of successful projects.</p>
             </div>
           </div>
         </div>
