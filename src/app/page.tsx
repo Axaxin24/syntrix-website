@@ -36,7 +36,7 @@ export default function Home() {
       </section>
 
       {/* About Syntrix Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">About Syntrix</h2>
@@ -72,7 +72,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-blue-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
@@ -128,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Syntrix?</h2>
@@ -169,79 +169,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="section-padding bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Don't just take our word for it. Here's what our satisfied clients have to say.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
-                ))}
-              </div>
-              <p className="text-gray-600 mb-6">
-                &ldquo;Syntrix transformed our business with their AI-powered management system. 
-                The results exceeded our expectations and our productivity has increased by 40%.&rdquo;
-              </p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 font-semibold">JS</span>
-                </div>
-                <div>
-                  <h4 className="font-semibold">John Smith</h4>
-                  <p className="text-gray-500">CEO, TechCorp</p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
-                ))}
-              </div>
-              <p className="text-gray-600 mb-6">
-                &ldquo;The mobile app they developed for us is outstanding. Clean design, 
-                fast performance, and the AI features are game-changing for our users.&rdquo;
-              </p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 font-semibold">MJ</span>
-                </div>
-                <div>
-                  <h4 className="font-semibold">Maria Johnson</h4>
-                  <p className="text-gray-500">Founder, StartupXYZ</p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
-                ))}
-              </div>
-              <p className="text-gray-600 mb-6">
-                &ldquo;Professional, reliable, and innovative. Syntrix delivered our e-commerce 
-                platform on time and it's been performing flawlessly since launch.&rdquo;
-              </p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-blue-600 font-semibold">DR</span>
-                </div>
-                <div>
-                  <h4 className="font-semibold">David Rodriguez</h4>
-                  <p className="text-gray-500">CTO, RetailPlus</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="section-padding bg-gradient-to-r from-blue-600 to-cyan-500">
