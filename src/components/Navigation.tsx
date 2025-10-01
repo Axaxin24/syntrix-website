@@ -34,7 +34,7 @@ export default function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="flex items-center space-x-2">
@@ -48,7 +48,7 @@ export default function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-12">
             {navItems.map((item) => (
               <Link
                 key={item.name}
@@ -60,7 +60,7 @@ export default function Navigation() {
             ))}
             <Link
               href="/contact"
-              className="btn-primary inline-flex items-center space-x-2"
+              className="btn-primary inline-flex items-center space-x-2 ml-8"
             >
               <Zap className="h-4 w-4" />
               <span>Book Demo</span>
@@ -81,7 +81,7 @@ export default function Navigation() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-md rounded-lg mt-2 shadow-lg">
+            <div className="px-4 pt-4 pb-4 space-y-3 bg-white/95 backdrop-blur-md rounded-lg mt-2 shadow-lg">
               {navItems.map((item) => (
                 <Link
                   key={item.name}

@@ -230,7 +230,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Improved navigation quality */
 .nav-link {
-  @apply text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative;
+  @apply text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 relative px-3 py-2 rounded-md;
+}
+
+.nav-link:hover {
+  @apply bg-blue-50;
 }
 
 .nav-link::after {
@@ -238,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: -4px;
+  bottom: 2px;
   left: 50%;
   background-color: #3b82f6;
   transition: all 0.3s ease;
@@ -246,5 +250,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link:hover::after {
-  width: 100%;
+  width: 80%;
 }
